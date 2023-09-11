@@ -137,7 +137,7 @@ main .section-2 .col-3 {
   flex-basis: calc((100% / 12) * 3.5);
 }
 
-main .col-3 .single {
+main .col-3 .card-header {
   border-bottom: #E4E4E6 solid 1px;
   padding: 7px 0;
   text-align: center;
@@ -154,6 +154,10 @@ main .col-3 .card-title {
 
 main .col-3 .price {
   margin-bottom:35px;
+}
+
+main .col-3 .price p {
+  margin-bottom: 10px;
 }
 
 main .col-3 .plan-information p {
@@ -175,12 +179,16 @@ main .col-3 .border {
 }
 
 main .col-3 .footer-card {
-  padding-bottom: 30px;
+  padding:0 20px;
 }
 
 main .col-3 .footerCard-title {
   margin-bottom: 15px;
   margin-top: 20px;
+}
+
+main .col-3 .footerCard-list {
+  padding-bottom: 40px;
 }
 
 main .col-3 .footerCard-list li {
@@ -190,7 +198,4 @@ main .col-3 .footerCard-list li {
 main .col-3 .footerCard-list i {
   color: #0061FF;
 } 
-
-
-
 /* FINE SECTION 2 */
