@@ -40,6 +40,7 @@ ul, ol, menu {
   color: white;
   background-color: #0061FF;
   padding: 5px 10px;
+  text-decoration: none;
 }
 
 .col-4 {
@@ -53,10 +54,8 @@ ul, ol, menu {
 .gray {
   color: #7D7D7D;
 }
+
 /* DEBUG */
-
-
-
 /* FINE DEBUG */
 
 /* HEADER */
@@ -87,115 +86,123 @@ header a {
 /* INIZIO MAIN */
 
 /* SECTION HERO */
- main .hero {
+.hero {
   background-color: #B4D0E7;
 }
 
-main .hero-title {
-  padding: 45px 0;
+.hero .hero-title {
   font-size: 3.5em;
 }
 
-main .col-4 {
+.hero .col-4 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 25px;
 }
 
-main .buttons a {
+.hero .buttons a {
   text-decoration: none;
 }
 
-main .arrow-down {
+.hero .arrow-down {
   font-size: 40px;
+  position: absolute;
+  bottom: 70px;
+}
+
+.hero .row {
+  position: relative;
+  top: 60px;
 }
 
 /* FINE SECTION HERO */
 
 /* INIZIO SECTION 2 */
-main .section2-title {
+.section2-title {
   padding-top: 70px;
   font-size: 20px;
 }
 
-main .section2-checkbox {
+.section2-checkbox {
   padding: 50px 0;
 }
 
-main .section2-checkbox span {
+.section2-checkbox span {
   margin-right: 30px;
 }
 
-main .section-2 .row {
+.section-2 .row {
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-main .section-2 .col-3 {
+.section-2 .col-3 {
   border: #E4E4E6 solid 1px;
   flex-basis: calc((100% / 12) * 3.5);
 }
 
-main .col-3 .card-header {
+.section-2 .col-3 .card-header {
   border-bottom: #E4E4E6 solid 1px;
   padding: 7px 0;
   text-align: center;
 }
 
-main .col-3 .card-body {
+.section-2 .col-3 .card-body {
   padding:0 20px;
 }
 
-main .col-3 .card-title {
+.section-2 .col-3 .card-title {
   padding-top:20px;
   padding-bottom: 10px;
 }
 
-main .col-3 .price {
+.section-2 .col-3 .price {
   margin-bottom:35px;
 }
 
-main .col-3 .price p {
+.section-2 .col-3 .price p {
   margin-bottom: 10px;
 }
 
-main .col-3 .plan-information p {
+.section-2 .col-3 .plan-information p {
   margin-bottom: 20px;
 }
 
-main .col-3 .payment {
+.section-2 .col-3 .payment {
   margin-top: 35px;
 }
 
-main .col-3 .buttons {
+.section-2 .col-3 .buttons {
   margin-bottom: 30px;
 }
 
-main .col-3 .border {
+.section-2 .col-3 .border {
   border: solid 1px #E4E4E6;
   max-width: 40px;
   margin: 50px 0;
 }
 
-main .col-3 .footer-card {
+.section-2 .col-3 .footer-card {
   padding:0 20px;
 }
 
-main .col-3 .footerCard-title {
+.section-2 .col-3 .footerCard-title {
   margin-bottom: 15px;
   margin-top: 20px;
 }
 
-main .col-3 .footerCard-list {
+.section-2 .col-3 .footerCard-list {
   padding-bottom: 40px;
 }
 
-main .col-3 .footerCard-list li {
+.section-2 .col-3 .footerCard-list li {
   margin-bottom: 10px;
 }
 
-main .col-3 .footerCard-list i {
+.section-2 .col-3 .footerCard-list i {
   color: #0061FF;
 } 
+
+
 /* FINE SECTION 2 */
