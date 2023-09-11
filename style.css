@@ -1,0 +1,22 @@
+/* REGOLE GENERALI */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+}
+
+.container-small {
+  width: 1000px;
+}
