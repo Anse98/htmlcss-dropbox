@@ -33,14 +33,15 @@ ul, ol, menu {
   list-style:none;
 }
 
+.buttons a{
+  color: white;
+  background-color: #0061FF;
+  padding: 3px 8px;
+}
 /* DEBUG */
 
 header {
   border: solid 1px black;
-}
-
-header ul {
-  border: solid 1px red;
 }
 
 /* HEADER */
@@ -51,8 +52,17 @@ header {
 
 header .row {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header .row ul {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
+
+header a {
+  text-decoration: none;
+  color:#7D7D7D;
+}
+
