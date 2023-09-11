@@ -36,10 +36,14 @@ ul, ol, menu {
   list-style:none;
 }
 
-.buttons a{
-  color: white;
+.buttons {
   background-color: #0061FF;
-  padding: 5px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.buttons a {
+  color: white;
   text-decoration: none;
 }
 
@@ -105,7 +109,10 @@ header a {
   gap: 25px;
 }
 
-.hero .buttons a {
+.hero .hero-btn a {
+  background-color: #0061FF;
+  color: white;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -218,7 +225,7 @@ header a {
 }
 
 .section-3 .header-container {
-  border: solid 1px #E4E4E6;
+  border-bottom: solid 1px #E4E4E6;
   padding: 7px 0;
   text-align: center;
 }
@@ -226,7 +233,6 @@ header a {
 .section-3 .row {
   margin-top: 25px;
   padding: 0 20px;
-  justify-content: center;
 }
 
 .section-3 .col-9 {
@@ -248,3 +254,27 @@ header a {
 }
 
 /* FINE SECTION 3 */
+
+/* INIZIO SECTION 4 */
+.section-4 .container-small {
+  margin-top: 150px;
+}
+
+.section-4 .col-4 {
+  padding: 40px 40px;
+}
+
+.section-4 .col-4 h3 {
+  margin-bottom: 20px;
+}
+
+.section-4 .col-4 p {
+  margin-bottom: 40px;
+}
+
+.section-4 .col-4 .find-partner {
+  border: solid 1px black;
+  padding: 10px;
+  display: inline-block;
+}
+/* FINE SECTION 4 */
