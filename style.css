@@ -20,3 +20,39 @@ html {
 .container-small {
   width: 1000px;
 }
+
+.row {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+ul, ol, menu {
+  list-style:none;
+}
+
+/* DEBUG */
+
+header {
+  border: solid 1px black;
+}
+
+header ul {
+  border: solid 1px red;
+}
+
+/* HEADER */
+
+header {
+  padding: 20px 15px;
+}
+
+header .row {
+  justify-content: space-between;
+}
+
+header .row ul {
+  display: flex;
+}
