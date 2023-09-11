@@ -273,10 +273,9 @@ header a {
   margin-bottom: 40px;
 }
 
-.section-4 .col-4 .find-partner {
+.section-4 .col-4 .find-partner span {
   border: solid 1px black;
   padding: 10px;
-  display: inline-block;
 }
 /* FINE SECTION 4 */
 
@@ -286,8 +285,13 @@ header a {
 }
 
 .section-5 .section5-title {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 1.5em;
+}
+
+.section-5 .col-4 {
+  padding:0 20px;
+  margin-bottom: 25px;
 }
 
 .section-5 .card-title {
