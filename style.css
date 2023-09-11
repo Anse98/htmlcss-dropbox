@@ -15,10 +15,12 @@ html {
 
 .container {
   width: 1200px;
+  margin: auto;
 }
 
 .container-small {
   width: 1000px;
+  margin: auto;
 }
 
 .row {
