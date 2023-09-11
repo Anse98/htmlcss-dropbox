@@ -110,5 +110,26 @@ main .arrow-down {
 /* FINE SECTION HERO */
 
 /* INIZIO SECTION 2 */
-  
+main .section2-title {
+  padding-top: 70px;
+  font-size: 20px;
+}
+
+main .section2-checkbox {
+  padding: 50px 0;
+}
+
+main .section2-checkbox span {
+  margin-right: 30px;
+}
+
+main .section-2 .row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+  main .section-2 .col-3 {
+    border: #7D7D7D solid 1px;
+    flex-basis: calc((100% / 12) * 3.5);
+  }
 /* FINE SECTION 2 */
