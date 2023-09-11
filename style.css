@@ -25,6 +25,7 @@ html {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 img {
@@ -38,13 +39,21 @@ ul, ol, menu {
 .buttons a{
   color: white;
   background-color: #0061FF;
-  padding: 3px 8px;
+  padding: 3px 10px;
+}
+
+.col-4 {
+  flex-basis:calc((100% / 12) * 4);
+}
+
+.col-8 {
+  flex-basis:calc((100% / 12) * 8);
 }
 /* DEBUG */
 
-header {
-  border: solid 1px black;
-}
+
+
+/* FINE DEBUG */
 
 /* HEADER */
 
@@ -60,6 +69,7 @@ header .row {
 header .row ul {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -68,3 +78,33 @@ header a {
   color:#7D7D7D;
 }
 
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* SECTION HERO */
+ main .hero {
+  background-color: #B4D0E7;
+}
+
+main .hero-title {
+  padding: 45px 0;
+  font-size: 3.5em;
+}
+
+main .col-4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+main .buttons a {
+  text-decoration: none;
+}
+
+main .arrow-down {
+  font-size: 40px;
+}
+
+/* FINE SECTION HERO */
