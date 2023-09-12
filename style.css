@@ -52,6 +52,10 @@ ul, ol, menu {
   flex-basis:calc((100% / 12) * 4);
 }
 
+.col-6 {
+  flex-basis:calc((100% / 12) * 6);
+}
+
 .col-8 {
   flex-basis:calc((100% / 12) * 8);
 }
@@ -68,8 +72,36 @@ ul, ol, menu {
   flex-basis:100%;
 }
 
+.bordeaux {
+  background-color: var(--bordeaux);
+}
+
 .gray {
   color: #7D7D7D;
+}
+
+.lightgreen {
+  background-color: var(--lightgreen);
+}
+
+.lightblue {
+  background-color: var(--lightblue);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+:root {
+  --lightgreen:#A2D39B;
+  --bordeaux:#61082B;
+  --lightblue:#0093CE;
+  --red:#FF1C1C;
+  --darkred:#D5001F;
+  --azure:#B4D0E7;
+  --blue:#0D2481;
+  --yellow:#FFD830;
+  --lightgray:#F5F5F5;
 }
 
 .card-header {
@@ -316,5 +348,20 @@ header a {
 /* FINE SECTION 5 */
 
 /* INIZIO SECTION 6 */
+  .section-6 .col-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .section-6 img {
+    width: 100px;
+    padding:50px 0;
+  }
+
+  .section-6 .col-6 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 /* FINE SECTION 6 */
