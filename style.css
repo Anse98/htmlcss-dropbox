@@ -107,6 +107,11 @@ ul, ol, menu {
 .darkred {
   background-color: var(--darkred);
 }
+
+.lightgray {
+  background-color: var(--lightgray);
+}
+
 :root {
   --lightgreen:#A2D39B;
   --bordeaux:#61082B;
@@ -366,18 +371,35 @@ header a {
   .section-6 .col-4 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .section-6 img {
-    width: 100px;
-    height: 170px;
-    padding:50px 0;
   }
 
   .section-6 .col-6 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 210px;
+    aspect-ratio: 1/1;
+    padding: 70px;
   }
+
+  .section-6 .col-4.lightgray {
+    flex-direction: column;
+  }
+
+  .section-6 .col-4.lightgray hr {
+    max-width: 70px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+
+  .section-6 .col-4.lightgray img {
+    width: 250px;
+    padding:30px 30px;
+  }
+
+  .section-6 .col-4.lightgray .main-paragraph, .footer-paragraph {
+    padding: 0 30px;
+    margin-bottom: 50px;
+  }
+
 /* FINE SECTION 6 */
