@@ -255,7 +255,7 @@ header a {
   margin-bottom: 30px;
 }
 
-.first-part .col-3 .border {
+.first-part .col-3 hr{
   border: solid 1px #E4E4E6;
   max-width: 40px;
   margin: 50px 0;
@@ -393,6 +393,7 @@ header a {
   .section-6 .col-4.lightgray hr {
     max-width: 70px;
     margin-left: 30px;
+    border: solid 1px #DDDDDF;
     margin-bottom: 50px;
   }
 
@@ -472,8 +473,8 @@ header a {
 
 /* INIZIO FOOTER */
   footer {
-    background-color: black;
-   color: white;
+  background-color: black;
+  color: white;
   }
 
   footer .footer-card {
@@ -485,5 +486,24 @@ header a {
   footer .footer-card * {
     padding-bottom: 16px;
     color: #D9EDF7;
+  }
+
+  footer hr {
+    margin-bottom: 40px;
+    border: solid 1px #999999;
+    width: 10%;
+  }
+
+  footer .language {
+    color: #999999;
+    padding-bottom:  30px;
+  }
+
+  footer .language i {
+    margin-right: 5px;
+  }
+
+  footer .language .sort-up {
+    vertical-align: sub;
   }
 /* FINE FOOTER */
