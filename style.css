@@ -393,7 +393,7 @@ header a {
   }
 
   .section-6 .col-4.lightgray img {
-    width: 250px;
+    max-width: 250px;
     padding:30px 30px;
   }
 
@@ -403,3 +403,33 @@ header a {
   }
 
 /* FINE SECTION 6 */
+
+/* INIZIO SECTION 7 */
+  .section-7 {
+    background-color: var(--azure);
+  }
+
+  .section-7 .row {
+    align-items: center;
+  }
+
+  .section7-title {
+    padding: 80px 0;
+    color: var(--bordeaux);
+  }
+
+  .section7-title h2 {
+    max-width: 300px;
+  }
+
+  .section7-btn {
+    text-align: end;
+  }
+
+  .section7-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: white;
+  }
+/* FINE SECTION 7 */
