@@ -442,7 +442,7 @@ header a {
 
 /* INIZIO SECTION 8 */
 .section-8 .container-small {
-  padding: 50px 0;
+  padding:100px 0;
 }
 
 .section-8 .faq-title {
@@ -469,3 +469,21 @@ header a {
 }
 
 /* FINE SECTION 8 */
+
+/* INIZIO FOOTER */
+  footer {
+    background-color: black;
+   color: white;
+  }
+
+  footer .footer-card {
+    padding-top: 64px;
+    padding-bottom: 86px;
+    flex-basis: 20%;
+  }
+
+  footer .footer-card h3,li{
+    padding-bottom: 16px;
+    color: #D9EDF7;
+  }
+/* FINE FOOTER */
