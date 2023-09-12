@@ -57,7 +57,7 @@ ul, ol, menu {
 }
 
 .col-8 {
-  flex-basis:calc((100% / 12) * 8);
+  flex-basis: calc((100% / 12) * 8);
 }
 
 .col-9 {
@@ -66,6 +66,10 @@ ul, ol, menu {
 
 .col-3 {
   flex-basis: calc((100% / 12) * 3);
+}
+
+.col-11 {
+  flex-basis: calc((100% / 12) * 11);
 }
 
 .col-12 {
@@ -377,7 +381,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 210px;
+    height: 220px;
     aspect-ratio: 1/1;
     padding: 70px;
   }
@@ -424,12 +428,44 @@ header a {
 
   .section7-btn {
     text-align: end;
+    
   }
 
   .section7-btn a{
     text-decoration: none;
     color: black;
     padding: 10px;
+    display: inline-block;
     background-color: white;
   }
 /* FINE SECTION 7 */
+
+/* INIZIO SECTION 8 */
+.section-8 .container-small {
+  padding: 50px 0;
+}
+
+.section-8 .faq-title {
+  padding-bottom:30px;
+}
+
+.section-8 .questions {
+  border-top: 2px solid lightgray;
+}
+
+.section-8 .questions .question {
+  border-bottom: 2px solid lightgray;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-8 .question .angle {
+  padding-right: 30px;
+}
+
+.section-8 .question .angle i {
+  color: black;
+}
+
+/* FINE SECTION 8 */
