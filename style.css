@@ -92,6 +92,21 @@ ul, ol, menu {
   background-color: var(--red);
 }
 
+.yellow {
+  background-color: var(--yellow);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.azure {
+  background-color: var(--azure);
+}
+
+.darkred {
+  background-color: var(--darkred);
+}
 :root {
   --lightgreen:#A2D39B;
   --bordeaux:#61082B;
@@ -356,6 +371,7 @@ header a {
 
   .section-6 img {
     width: 100px;
+    height: 170px;
     padding:50px 0;
   }
 
