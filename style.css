@@ -482,7 +482,7 @@ header a {
     flex-basis: 20%;
   }
 
-  footer .footer-card h3,li{
+  footer .footer-card * {
     padding-bottom: 16px;
     color: #D9EDF7;
   }
