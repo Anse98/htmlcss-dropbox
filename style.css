@@ -230,6 +230,12 @@ header a {
   flex-basis: calc((100% / 12) * 3.5);
 }
 
+.first-part .col-3 li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
 .first-part .col-3 .card-title {
   padding-top:20px;
   padding-bottom: 10px;
@@ -382,8 +388,12 @@ header a {
     justify-content: center;
     align-items: center;
     height: 220px;
-    aspect-ratio: 1/1;
-    padding: 70px;
+    aspect-ratio: 1;
+  }
+
+  .section-6 .col-6 img {
+    filter: invert(100%);
+    width: 50%;
   }
 
   .section-6 .col-4.lightgray {
@@ -481,6 +491,7 @@ header a {
     padding-top: 64px;
     padding-bottom: 86px;
     flex-basis: 20%;
+    padding-left: 60px;
   }
 
   footer .footer-card * {
@@ -490,6 +501,7 @@ header a {
 
   footer hr {
     margin-bottom: 40px;
+    margin-left: 50px;
     border: solid 1px #999999;
     width: 10%;
   }
@@ -497,6 +509,7 @@ header a {
   footer .language {
     color: #999999;
     padding-bottom:  30px;
+    margin-left: 50px;
   }
 
   footer .language i {
