@@ -336,6 +336,7 @@ header a {
   border: solid 1px black;
   padding: 10px;
   display: inline-block;
+  box-shadow: 3px 2px gray;
 }
 
 .section-3 .col-4 .find-partner a {
@@ -387,8 +388,8 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 220px;
-    aspect-ratio: 1;
+    width: 50%;
+    aspect-ratio: 1/1;
   }
 
   .section-6 .col-6 img {
@@ -396,15 +397,13 @@ header a {
     width: 50%;
   }
 
-  .section-6 .col-4.lightgray {
-    flex-direction: column;
+  .section-6 .col-6.lightgreen {
+    border: solid 12px #d1e9cd;
   }
 
-  .section-6 .col-4.lightgray hr {
-    max-width: 70px;
-    margin-left: 30px;
-    border: solid 1px #DDDDDF;
-    margin-bottom: 50px;
+  .section-6 .col-4.lightgray {
+    aspect-ratio: 1;
+    overflow-y: scroll;
   }
 
   .section-6 .col-4.lightgray img {
