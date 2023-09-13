@@ -471,6 +471,7 @@ header a {
   border-bottom: 2px solid lightgray;
   padding: 40px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -480,6 +481,15 @@ header a {
 
 .section-8 .question .angle i {
   color: black;
+}
+
+.section-8 .question .hidden-answer {
+  padding-top: 30px;
+  display: none;
+}
+
+.section-8 .question .angle:hover + .hidden-answer {
+  display: block;
 }
 
 /* FINE SECTION 8 */
