@@ -183,7 +183,18 @@ header a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 100px;
+}
+
+.hero .col-4 .content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero .col-8 {
+  position: relative;
+  top: 60px;
 }
 
 .hero .hero-btn a {
@@ -196,13 +207,6 @@ header a {
 
 .hero .arrow-down {
   font-size: 40px;
-  position: absolute;
-  bottom: 70px;
-}
-
-.hero .row {
-  position: relative;
-  top: 60px;
 }
 
 /* FINE SECTION HERO */
