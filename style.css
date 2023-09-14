@@ -361,7 +361,7 @@ header a {
   margin-top: 100px;
 }
 
-.section-4 .section5-title {
+.section-4 .section4-title {
   margin-bottom: 50px;
   font-size: 1.5em;
 }
@@ -565,6 +565,7 @@ header a {
   }
 /* FINE FOOTER */
 
+
 /* RESPONSIVE */
 
 /* RESPONSIVE 1199 */
@@ -582,7 +583,7 @@ header a {
 /* RESPONSIVE 991 */
 
 @media (max-width:991px) {
-  /* HEADER */
+  /* header */
   header .row > ul {
     display: none;
   }
@@ -590,7 +591,7 @@ header a {
   header .row.responsive {
     display: flex;
   }
-  /* HERO */
+  /* hero */
   .hero .container {
     padding:0 40px;
     position: relative;
@@ -611,7 +612,7 @@ header a {
   .hero .row .col-4 {
     flex-basis: 100%;
   }
-  /* SECTION 2 */
+  /* section 2 */
 
   .section-2 {
     padding: 0 25px;
@@ -620,18 +621,24 @@ header a {
   .section-2 .section2-title {
     text-align: center;
   }
+  /* section 7 */
+
+  .section-7 {
+    padding: 0 26px;
+  }
 }
 
 /* RESPONSIVE 768 */
 
 @media (max-width:768px) {
+  /* header */
   header .row > ul {
      display: none;
   }
   header .row.responsive {
     display: flex;
   }
-
+/* hero */
   .hero .container img {
     display: none;
   }
@@ -639,6 +646,30 @@ header a {
   .hero .hero-title h1 {
     font-size:0.9em ;
     margin-bottom: 36px;
+  }
+  /* section 3 */
+  .section-3 .row {
+    justify-content: center;
+  }
+  .section-3 .row .col-8 {
+    flex-basis: 80%;
+  }
+
+  .section-3 .row .col-4 {
+    flex-basis: 80%;
+  }
+
+  /* section-7 */
+  .section-7 .section7-title{
+    text-align: center;
+  }
+  .section-7 .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-7 .section7-btn {
+    margin-bottom: 26px;
   }
 }
 
@@ -651,10 +682,23 @@ header a {
   header .row.responsive {
     display: flex;
   }
-  /* SECTION 2 */
+  /* section 2 */
   .section-2 .row.first-part .col-3 {
     flex-basis: 100%;
     margin-bottom: 40px;
+  }
+
+  /* section 4 */
+  .section-4 .section4-title {
+    text-align: center;
+  }
+
+  .section-4 .row {
+    justify-content: center;
+  }
+
+  .section-4 .row .col-4 {
+    flex-basis: 80%;
   }
 }
 
