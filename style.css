@@ -626,6 +626,15 @@ header a {
   .section-7 {
     padding: 0 26px;
   }
+
+  /* section 8 */
+  .section-8 {
+    padding: 0 26px;
+  }
+
+  .section-8 .faq-title{
+    text-align: center;
+  }
 }
 
 /* RESPONSIVE 768 */
@@ -647,6 +656,38 @@ header a {
     font-size:0.9em ;
     margin-bottom: 36px;
   }
+
+  /* section 2 */
+  .section-2 .row.first-part .col-3 {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+
+  .section-2 .container-small {
+    text-align: center;
+  }
+
+  .section-2 .row ul li {
+    justify-content: center;
+  }
+
+  .section-2 hr {
+    display: none;
+  }
+
+  .section-2 .buttons {
+    display: inline-block;
+  }
+
+  .section-2 .row {
+    flex-direction: column;
+  }
+
+  .section-2 .row.second-part .col-3 {
+    padding-bottom: 20px;
+  }
+
+
   /* section 3 */
   .section-3 .row {
     justify-content: center;
@@ -671,6 +712,22 @@ header a {
   .section-7 .section7-btn {
     margin-bottom: 26px;
   }
+
+  /* footer */
+  footer .row {
+    justify-content: center;
+  }
+  footer .row .footer-card {
+    flex-basis: 50%;
+  }
+
+  footer hr {
+    margin-left: 37%;
+  }
+
+  footer .language {
+    margin-left: 33%;
+  }
 }
 
 /* RESPONSIVE 576 */
@@ -681,11 +738,6 @@ header a {
   }
   header .row.responsive {
     display: flex;
-  }
-  /* section 2 */
-  .section-2 .row.first-part .col-3 {
-    flex-basis: 100%;
-    margin-bottom: 40px;
   }
 
   /* section 4 */
@@ -699,6 +751,12 @@ header a {
 
   .section-4 .row .col-4 {
     flex-basis: 80%;
+  }
+
+  /* section 8 */
+
+  .section-8 .questions .question {
+    flex-wrap: nowrap;
   }
 }
 
